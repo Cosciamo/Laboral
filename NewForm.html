@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body style="background-color: #0CFBF3">
+<h1>Contacto</h1>
+
+	<form action="submit.php" method="POST"">
+		<div style="background-color: red; width: 150px;>
+				<label for="nombre "  ">Nombre </label>
+		<br>
+				<input type="text" id="nombre" name="nombre" placeholder="nombre y apellido">	
+		</div>
+		<br>
+		<div>
+				<label for="email" >Mail</label>
+		<br>
+				<input type="email" id="email" name="email" placeholder="email">
+				
+		</div>
+		<br>
+		<div>
+				<label for="nacionalidad">Origen</label>
+					<br>
+				<select>
+						<option Value"ventas">Ventas</option>
+						<option Value"alquileray>Alquiler</option>
+						<option Value"leasing">Leasing</option>
+				</select>
+			</div>
+
+			<br>
+			<div>
+				<label for="comentario">Comentarios</label>
+				<br>
+				<textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+			</div>
+			<br>
+			<div>
+			<p>Estado Civil</p>
+				<label for="estado">Soltero</label>
+				<input type="radio" id="estado" name="estado" value="soltero">
+
+				<label for="estado">Casado</label>
+				<input type="radio" id="estado" name="estado" value="casado">
+			</div>
+			<br>
+			<div>
+				<label for="lenguaje">Acepta los Terminos y Condiciones</label>
+				<input type="checkbox" name="lenguaje" id="lenguaje" value="español">
+			</div>
+			<br>
+			<button type="submit" style="background-color: #1CDEF5; margin-left: 100px; height: 50px;width: 280px;">Enviar</button>
+			<br>
+			<button type="reset">Limpiar</button>
+
+
+	</form>
+
+	
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!-- html:5 + TAB  atajo para generar estrucutura html 5 con package EMMET-->
+<!DOCTYPE html>
+<html lang="es">
+<!-- Encabezado  -->
+<head>
+  <!-- META: información para el navegdor o motor de búsqueda -->
+  <meta charset="UTF-8">
+  <!-- Texto en la pestaña del navegador -->
+  <title>Document</title>
+
+  <!-- CSS - INTERNO -->
+  <style>
+    /* selector{propiedad: valor;} */
+
+    /* Selector de etiqueta - menos especifico */
+    body{
+      background-color: #ddd;
+    }
+
+    /* Selector de clase */
+    .titulo{
+      font-family: 'Verdana', 'sans-serif';
+    }
+
+    /* Selector de ID - más específico*/
+    #parrafo{
+      font-size: 18px;
+    }  
+
+  </style>
+  <!-- Fin de CSS -->
+</head>
+<!--  Fin de encabezado  -->
+
+<!--  Cuerpo de mi página (contenido visible para el usuario)-->
+<body>
+  <!--  Elemento HTML, formado por etiquetas de apertura y/o cierre  -->
+  <!-- Atributos: agregan información, siempre en etiqueta de apertura -->
+  
+  <!--  <etiqueta atributo="valor"> TEXTO </etiqueta> </p>--> 
+      
+  <h1 class="titulo"> ENCABEZADO HTML - de h1 a h6 según importancia del contenido </h1>  
+  <p> <strong>&ltetiqueta atributo="valor"&gt TEXTO &lt/etiqueta&gt </strong></p>
+  <p id="parrafo">
+    Párrafo aleatorio, se puede generar con <strong><em>lorem + TAB</em></strong>
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores eveniet repellat sunt explicabo voluptatibus nesciunt rerum labore dolorum maxime temporibus, sed vero et, ex quo harum hic tempora nam. Fuga!
+  </p>
+
+  <h2>CSS</h2>
+  <p>
+    <strong>
+      selector{
+        propiedad: valor;
+      }
+    </strong>  
+  </p>
+  <p> Jerarquía: etiqueta < clase < id < en linea </p>
+
+  <h2>Lista Ordenada - ol</h2>
+  <ol>
+    <li>
+      <strong>Elementos de bloque:</strong> el navegador asigna al elemento todo el espacio horizontal disponible. Ej: <strong>h1, p</strong>.
+    </li>
+    <li>
+      <strong>Elemento de línea:</strong> se anidan dentro de otros elementos y se ven en la misma línea. Ej: strong, <strong>em, span</strong>
+    </li>
+  </ol>
+
+  <h2>Lista Desordenada - ul</h2>
+  <ul>
+    <li>
+      <strong>Salto de línea</strong> br.
+    </li>
+    <li>
+      <strong>Línea horizontal</strong> hr
+    </li>
+  </ul>
+  <hr>
+</body>
+<!--  Fin del cuerpo -->
+</html>

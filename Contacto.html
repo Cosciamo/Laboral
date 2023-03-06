@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body style="background-color: #0CFBF3">
+	<section>
+	<a href="Index.html">Volver al Inicio</a>
+	</section>
+	<h1>Formulario de Contacto</h1>
+		<form action="submit.php" method="POST">
+		
+			<div>
+				<label for="nombre ">Nombre    </label>
+				<input type="text" id="nombre" name="nombre" placeholder="juan" autocomplete="off" minlength="5" maxlength="5" required>	
+			</div>
+			<br>
+			<div>
+				<label for="apellido">Apellido</label>
+				<input type="text" id="apellido" name="apellido" placeholder="perez" maxlength="5"required>
+			<br>
+			<br>
+			<div>
+				<label for="comentario">Comentarios</label>
+				<textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+			<br>
+			</div>
+			<br>
+			<div>
+				<label for="email">Mail</label>
+				<input type="email" id="email" name="email">
+				
+			</div>
+			<br>
+			<div>
+				<p>Genero</p>
+				<label for="genero">Maculino</label>
+				<input type="radio" id="genero" name="genero" value="masculino">
+
+				<label for="genero">Femenino</label>
+				<input type="radio" id="genero" name="genero" value="femenino">
+
+				<label for="genero">Otro</label>
+				<input type="radio" id="genero" name="genero" value="otro">
+
+			</div>
+			<br>
+			<div>
+				<label for="nacionalidad">Nacionalidad</label>
+				<select>
+						<option Value"">Seleccione una Nacionalidad</option>
+						<option Value"argentina">Argentina</option>
+						<option Value"urugua">Uruguay</option>
+						<option Value"brasil">Brasil</option>
+				</select>
+			</div>
+			<br>
+
+			<div>
+				<label for="Password">Password</label>
+				<input type="Password" name="Password" id="Password">
+
+			</div>
+			<br>
+			<div>
+				<label for="archivo">Adjuntar un Archivo</label>
+				<input type="file" name="archivo" id="archivo">
+
+			</div>
+			<br>
+				<label for="telefono">TE</label>
+				<input type="number" min="" name="telefono" id="telefono">
+			<br>
+				<label for="nacimiento">Nacvimiento</label>
+				<input type="date" min="0" name="nacimiento" id="nacimiento">
+			<br>
+			<div>
+				<label for="lenguaje">Lenguaje</label>
+				<br>
+				Español
+				<input type="checkbox" name="lenguaje" id="lenguaje" value="español">
+				Italiano
+				<input type="checkbox" name="lenguaje" id="lenguaje" value="italiano">
+				Frances
+				<input type="checkbox" name="lenguaje" id="lenguaje" value="frances">
+
+			</div>
+			<br>
+			<div>
+				<button type="reset">Limpiar</button>
+				<br>
+				<button type="submit">Enviar</button>
+			</div>
+
+		</form>
+
+
+
+</body>
+</html>
